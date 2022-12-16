@@ -1,0 +1,118 @@
+body {
+  background-color: white;
+  border: 5px solid #952020;
+  background-image: url("https://d2culxnxbccemt.cloudfront.net/craft/content/uploads/a/general/wp-content/uploads/2016/11/augmenttree22a.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 20%;
+}
+
+#santas-workshop-header {
+  display: flex;
+  justify-content: center;
+  padding: 1 rem;
+}
+
+#santas-workshop-header img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  width: 25%;
+}
+
+#elf-employees {
+  margin: 2rem;
+}
+
+.card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #b7393f;
+}
+
+.elf-avatar {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
+button {
+  position: relative;
+  background-color: #b7393f;
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: cursive;
+  justify-self: center;
+}
+
+p {
+  font-family: monospace;
+  border-style: none;
+  font-size: 28px;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  border: #e04b 52 solid 1px;
+  color: #e04b52;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  padding: 0.5rem;
+  width: stretch;
+  height: auto;
+}
+
+#elf-form {
+  display: none;
+  background-image: url("https://media.istockphoto.com/vectors/santa-claus-checking-list-vector-id524906429?b=1&k=20&m=524906429&s=170667a&w=0&h=8vPOg8n8Awn0yDPX0Z5LFftMu7i3Ab5IbjsevEbNszI=");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: 400px;
+}
+
+.submit {
+  position: relative;
+  background-color: #b7393f;
+  border-radius: 5px;
+  height: 2rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+  font-family: cursive;
+  margin: 3px;
+}
+
+.submit:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+}
+
+.input-text {
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  font-size: 18px;
+  font-family: cursive;
+  margin: 3px;
+}

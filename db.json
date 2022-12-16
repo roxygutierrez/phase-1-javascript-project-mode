@@ -1,0 +1,29 @@
+{
+  "elves": [
+    {
+      "id": 1,
+      "name": "Buddy",
+      "image": "https://img.freepik.com/free-vector/christmas-elf-cartoon-character_1308-123994.jpg?w=2000"
+    },
+    {
+      "id": 2,
+      "name": "Ernie",
+      "image": "https://img.freepik.com/premium-vector/christmas-elf-girl-cartoon-character_1308-121545.jpg?w=2000"
+    },
+    {
+      "id": 3,
+      "name": "McJingles",
+      "image": "https://static.vecteezy.com/system/resources/previews/004/993/760/original/cartoon-happy-christmas-elf-with-bag-free-vector.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hope",
+      "image": "https://static.vecteezy.com/system/resources/previews/004/991/867/original/cartoon-christmas-elf-sitting-on-big-gift-box-free-vector.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Noel",
+      "image": "https://us.123rf.com/450wm/hermandesign2015/hermandesign20152110/hermandesign2015211000011/hermandesign2015211000011.jpg?ver=6"
+    }
+  ]
+}
