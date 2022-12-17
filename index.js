@@ -6,11 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const addBtn = document.querySelector("#new-elf-btn");
   const elfFormContainer = document.querySelector("#elf-form");
   const helpWanted = document.querySelector("#help-wanted");
-  addBtn.addEventListener("click", () => {
+  addBtn.addEventListener("click", (e) => {
     addElf = !addElf;
     if (addElf) {
       elfFormContainer.style.display = "block";
       helpWanted.style.display = "none";
+      e.target.textContent = "Hide Form";
     } else {
       elfFormContainer.style.display = "none";
       helpWanted.style.display = "block";
