@@ -25,7 +25,7 @@ Santa currently only has 6 elves working and they are not able to finish making 
 
 Santa requires more help in order to fulfill this years' Christmas delivery, this application contains a form that allows you to add an elf's name and image URL in order to hire an elf for Santa.
 The more elves you add, the more toys Santa will be able to deliver!
-If someone decides to sabotage Santa and add someone other than an elf (for example, The Grinch), the form will reject their submission.
+If someone decides to sabotage Santa and add someone other than an elf (for example, The Grinch or Scrooge), the form will reject their submission.
 
 ##### Acknowledgements and Credit
 
@@ -41,3 +41,4 @@ If someone decides to sabotage Santa and add someone other than an elf (for exam
 - Christmas Tree: https://d2culxnxbccemt.cloudfront.net/craft/content/uploads/a/general/wp-content/uploads/2016/11/augmenttree22a.jpg
 - Elf on the Shelf: https://iheartcraftythings.com/wp-content/uploads/2021/07/6-91.jpg
 - The Grinch: https://www.seekpng.com/png/full/182-1821857_evil-grinch-png-vector-transparent-stock-transparent-grinch.png
+- Scrooge: https://c8.alamy.com/comp/R7M5D6/ebenezer-scrooge-cartoon-character-illustrated-mascot-R7M5D6.jpg
