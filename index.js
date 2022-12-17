@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const newElf = {};
     newElf.name = e.target.name.value;
     newElf.image = e.target.image.value;
+    newElf.task = e.target.task.value;
     if (
       newElf.name.toUpperCase().includes("GRINCH") ||
       newElf.name.toUpperCase().includes("SCROOGE")
@@ -59,7 +60,7 @@ const renderElf = (elf) => {
   h2Element.textContent = elf.name;
   cardDiv.append(h2Element);
   const h3Element = document.createElement("h3");
-  h3Element.textContent = `Task: ${elf.task}`;
+  h3Element.textContent = `I can build ${elf.task}!`;
   cardDiv.append(h3Element);
   const img = document.createElement("img");
   img.src = elf.image;
