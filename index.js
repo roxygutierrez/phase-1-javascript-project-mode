@@ -21,7 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const newElf = {};
     newElf.name = e.target.name.value;
     newElf.image = e.target.image.value;
-    if (newElf.name.toUpperCase().includes("GRINCH")) {
+    if (
+      newElf.name.toUpperCase().includes("GRINCH") ||
+      newElf.name.toUpperCase().includes("SCROOGE")
+    ) {
       window.alert("Elves Only!");
       e.target.reset();
       return;
