@@ -16,6 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  const renderElf = (elf) => {
+    const parentNode = document.querySelector("#elf-employees");
+    const cardDiv = document.createElement("div");
+    cardDiv.className = "card";
+    const h2Element = document.createElement("h2");
+    h2Element.textContent = elf.name;
+    cardDiv.append(h2Element);
+    const img = document.createElement("img");
+    img.src = elf.image;
+    img.className = "elf-avatar";
+    cardDiv.append(img);
+    parentNode.append(cardDiv);
+  };
+
   document.querySelector("#elf-form").addEventListener("submit", (e) => {
     e.preventDefault();
     const newElf = {};
@@ -47,20 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 });
-
-const renderElf = (elf) => {
-  const parentNode = document.querySelector("#elf-employees");
-  const cardDiv = document.createElement("div");
-  cardDiv.className = "card";
-  const h2Element = document.createElement("h2");
-  h2Element.textContent = elf.name;
-  cardDiv.append(h2Element);
-  const img = document.createElement("img");
-  img.src = elf.image;
-  img.className = "elf-avatar";
-  cardDiv.append(img);
-  parentNode.append(cardDiv);
-};
 
 const loadElves = () => {
   fetch("http://localhost:3000/elves")
