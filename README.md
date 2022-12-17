@@ -37,5 +37,6 @@ If someone decides to sabotage Santa and add someone other than an elf (for exam
 - Santa's Elf #3: https://static.vecteezy.com/system/resources/previews/004/993/760/original/cartoon-happy-christmas-elf-with-bag-free-vector.jpg
 - Santa's Elf #4: https://static.vecteezy.com/system/resources/previews/004/991/867/original/cartoon-christmas-elf-sitting-on-big-gift-box-free-vector.jpg
 - Santa's Elf #5: https://us.123rf.com/450wm/hermandesign2015/hermandesign20152110/hermandesign2015211000011/hermandesign2015211000011.jpg?ver=6
+- Christmas Tree: https://d2culxnxbccemt.cloudfront.net/craft/content/uploads/a/general/wp-content/uploads/2016/11/augmenttree22a.jpg
 - Elf on the Shelf: https://iheartcraftythings.com/wp-content/uploads/2021/07/6-91.jpg
 - The Grinch: https://www.seekpng.com/png/full/182-1821857_evil-grinch-png-vector-transparent-stock-transparent-grinch.png
