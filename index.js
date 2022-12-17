@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           renderElf(elf);
         }
+        e.target.reset();
       });
   });
 });
