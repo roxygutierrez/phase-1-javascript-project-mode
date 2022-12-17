@@ -58,6 +58,9 @@ const renderElf = (elf) => {
   const h2Element = document.createElement("h2");
   h2Element.textContent = elf.name;
   cardDiv.append(h2Element);
+  const h3Element = document.createElement("h3");
+  h3Element.textContent = `Task: ${elf.task}`;
+  cardDiv.append(h3Element);
   const img = document.createElement("img");
   img.src = elf.image;
   img.className = "elf-avatar";
