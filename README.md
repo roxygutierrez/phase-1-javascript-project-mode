@@ -7,7 +7,7 @@ Phase 1 JavaScript Project
 Christmas is around the corner and Santa needs help making presents in time for all the nice kids on his list!
 Santa currently only has 6 elves working and they are not able to finish making all of the toys in time for Christmas! Add an elf to the roster so the kids can have their presents in time for Christmas morning!
 
-### Project Requirements / Features
+### Project Requirements
 
 - A single page application (SPA)
 - Application contains HTML, CSS, JavaScript and communicates with JSON server
