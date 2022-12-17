@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       newElf.name.toUpperCase().includes("GRINCH") ||
       newElf.name.toUpperCase().includes("SCROOGE")
     ) {
-      window.alert("Elves Only!");
+      window.alert("No grumps allowed, ELVES ONLY!");
       e.target.reset();
       return;
     }
