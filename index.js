@@ -1,5 +1,6 @@
 let addElf = false;
 let missingElves = true;
+const elvesURL = "http://localhost:3000/elves";
 
 document.addEventListener("DOMContentLoaded", () => {
   const addBtn = document.querySelector("#new-elf-btn");
@@ -29,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       e.target.reset();
       return;
     }
-    fetch("http://localhost:3000/elves", {
+    fetch(elvesURL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -63,7 +64,7 @@ const renderElf = (elf) => {
 };
 
 const loadElves = () => {
-  fetch("http://localhost:3000/elves")
+  fetch(elvesURL)
     .then((resp) => resp.json())
     .then((elves) => {
       elves.forEach(renderElf);
