@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       elfFormContainer.style.display = "none";
       helpWanted.style.display = "block";
+      e.target.textContent = "Show Form";
     }
   });
 
