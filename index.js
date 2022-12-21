@@ -3,6 +3,7 @@ let missingElves = true;
 const elvesURL = "http://localhost:3000/elves";
 
 document.addEventListener("DOMContentLoaded", () => {
+  //Help Santa Btn
   const addBtn = document.querySelector("#new-elf-btn");
   const elfFormContainer = document.querySelector("#elf-form");
   const helpWanted = document.querySelector("#help-wanted");
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       elfFormContainer.style.display = "none";
       helpWanted.style.display = "block";
+      e.target.textContent = "Help Santa";
     }
   });
 
