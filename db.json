@@ -29,6 +29,18 @@
       "name": "Noel",
       "task": "barbies",
       "image": "https://us.123rf.com/450wm/hermandesign2015/hermandesign20152110/hermandesign2015211000011/hermandesign2015211000011.jpg?ver=6"
+    },
+    {
+      "name": "Albert",
+      "image": "https://e7.pngegg.com/pngimages/67/688/png-clipart-christmas-elf-christmas-elves-elf-cartoon.png",
+      "task": "cars",
+      "id": 6
+    },
+    {
+      "name": "Albert",
+      "image": "https://iheartcraftythings.com/wp-content/uploads/2021/07/6-91.jpg",
+      "task": "cars",
+      "id": 7
     }
   ]
 }

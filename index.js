@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const elfFormContainer = document.querySelector("#elf-form");
   const helpWanted = document.querySelector("#help-wanted");
   addBtn.addEventListener("click", (e) => {
+    const name = "Roxanne"
     addElf = !addElf;
     if (addElf) {
       elfFormContainer.style.display = "block";
@@ -19,6 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
       e.target.textContent = "Help Santa";
     }
   });
+  
+console.log("name", name)
 
   document.querySelector("#elf-form").addEventListener("submit", (e) => {
     e.preventDefault();
